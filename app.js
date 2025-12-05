@@ -23,7 +23,7 @@ const game = {
 
 //Exercise 2
 
-console.log(game);
+console.log("Exercise 2: ", game);
 
 /*
 Exercise 3
@@ -35,4 +35,16 @@ Solve Exercise 3 here:
 */
 
 game.difficulty = "medium";
-console.log(game);
+console.log("Exercise 3: ", game);
+
+/*
+Exercise 4
+1. Select a starter Pokémon from the `pokemon` array. Remember, a starter Pokémon's `starter` property is true.
+2. Add this Pokémon to the `game.party` array. Which array method will you use to add them?
+
+
+Solve Exercise 4 here:
+*/
+
+game.party.push(pokemon[0]);
+console.log("Exercise 4: ", game);
