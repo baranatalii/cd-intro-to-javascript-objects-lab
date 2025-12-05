@@ -1,7 +1,6 @@
-const pokemon = require('./data.js');
+const pokemon = require("./data.js");
 
-console.dir(pokemon, { maxArrayLength: null })
-
+// console.dir(pokemon, { maxArrayLength: null })
 
 const game = {
   party: [],
@@ -24,8 +23,16 @@ const game = {
 
 //Exercise 2
 
-console.log(game)
+console.log(game);
+
+/*
+Exercise 3
+1. Add a new property to the `game` object. Let's call it "difficulty".
+2. Choose a value for "difficulty" that you think fits the game. Ex: "Easy", "Med" or "Hard". How would you assign it?
 
 
+Solve Exercise 3 here:
+*/
 
-
+game.difficulty = "medium";
+console.log(game);
