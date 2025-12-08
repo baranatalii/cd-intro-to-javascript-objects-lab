@@ -109,7 +109,26 @@ Exercise 8
 Solve Exercise 8 here:
 */
 
+for (let i = 0; i < game.party.length; i++) {
+  console.log(game.party[i].name);
+}
 
-for (let i =0; i < game.party.length; i++) {
-    console.log(game.party[i].name);
+/*
+Exercise 9
+1. Can you print out all the starter Pokémon from the `pokemon` array?
+2. Think about how you can identify a starter Pokémon and then log their names.
+
+
+Solve Exercise 9 here:
+*/
+
+// Create a for loop that goes to the end of your party array
+// Inside of the for loop, check IF the current pokemon you are looking at, is a starter pokemon
+// If true, print the name of just that pokemon
+
+for (let i = 0; i < game.party.length; i++) {
+  if (game.party[i].starter) {
+    console.log();
+  }
+  
 }
